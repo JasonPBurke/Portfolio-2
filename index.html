@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Jason</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Change Button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main" id="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Jason Burke</h1>
+            <h3 class="home__education">Software Developer</h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/Jason_Burke_Resume.pdf"
+                class="button button--ghost"
+                >Download Resume</a
+              >
+              <a href="#about" class="button">About Me</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/fry.png" alt="" class="home__img" />
+          </div>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/jason-p-burke/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a
+              href="https://github.com/JasonPBurke/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <!-- <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a> -->
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <!---->
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/fry-new-year.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bxs-school about__icon"></i>
+                <h3 class="about__title">Education</h3>
+                <span class="about__subtitle">BS CS Degree</span>
+                <p class="about__subtitle">SQL Certification</p>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Awards</h3>
+                <span class="about__subtitle">Capstone Excellence Award</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt-2 about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">
+                  Software Development Internship</span
+                >
+              </div>
+            </div>
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              consequuntur laboriosam distinctio? Ducimus, libero tempore labore
+              dicta quod perferendis quisquam fuga, quasi animi suscipit quae
+              vero illum temporibus, veritatis ex.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My Abilities</span>
+        <!---->
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend Development</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <!-- <span class="skills__level">Intermediate</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Plotly Dash</h3>
+                    <!-- <span class="skills__level">Intermediate</span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Development</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <!-- <span class="skills__level">Intermediate</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">SQL</h3>
+                    <!-- <span class="skills__level">Intermediate</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Django</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">REST APIs</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Pandas</h3>
+                    <!-- <span class="skills__level">Basic</span> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Projects</h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <div class="work__img__link">
+              <img src="assets/img/work1.jpg" alt="" class="work__img" />
+              <div class="work__link">
+                <div class="work__link-name work__button-details">View Details</div>
+              </div>
+            </div>
+
+            <h3 class="work__title">U.S. PPP Loan Disbursement</h3>
+            <span class="work__subtitle">Dashboard Application</span>
+
+            <a
+              href="https://ppp-loan-data.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+
+                <h3 class="work__modal-title">Dashboard Mapping Application</h3>
+                <p class="work__modal-description">
+                  Exploring the U.S. PPP loans of $150K+. Using a dataset of over
+                  650K entries, data was cleaned, addresses constructed, then
+                  converted to long/lat for display.
+                </p>
+
+                <ul class="work__modal-list">
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Plotly Dash</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Pandas</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Bootstrap</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">geocoders API</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Heroku</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__img__link">
+              <img src="assets/img/work2.jpg" alt="" class="work__img" />
+              <div class="work__link">
+                <div class="work__link-name work__button-details">View Details</div>
+              </div>
+            </div>
+            <!-- Web/Django Design (PUT CRM/CMS HERE WHEN BUILT)-->
+            <h3 class="work__title">Personal Website</h3>
+            <span class="work__subtitle">Web/Django Design</span>
+
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+
+                <h3 class="work__modal-title">Web/Django Design</h3>
+                <p class="work__modal-description">
+                  Personal website/portfolio using a Django backend
+                </p>
+
+                <ul class="work__modal-list">
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">HTML</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">CSS</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">JavaScript</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Django</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Python Anywhere / Cloudflare</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__img__link">
+              <img src="assets/img/work3.jpg" alt="" class="work__img" />
+              <div class="work__link">
+                <div class="work__link-name work__button-details">View Details</div>
+              </div>
+            </div>
+            <h3 class="work__title">Futurama Quote Finder</h3>
+            <span class="work__subtitle">Data Analysis</span>
+            <a
+              href="https://finglonger.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+
+                <h3 class="work__modal-title">Data Analysis</h3>
+                <p class="work__modal-description">
+                  This project searches a popular social network site finding
+                  instances of quotes from the television show Futurama. Data is
+                  displayed on a web dashboard, displays multiple graphs, and
+                  lists all quotes found with links to content.
+                </p>
+
+                <ul class="work__modal-list">
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Plotly Dash</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">asyncio</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Pandas</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">multiple API’s</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Heroku</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__img__link">
+              <img src="assets/img/work4.jpg" alt="" class="work__img" />
+              <div class="work__link">
+                <div class="work__link-name work__button-details">View Details</div>
+              </div>
+            </div>
+
+            <h3 class="work__title">Diabetes Prediction</h3>
+            <span class="work__subtitle">Machine Learning</span>
+            <a
+              href="https://diabetes-app-42.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+
+                <h3 class="work__modal-title">Machine Learning</h3>
+                <p class="work__modal-description">
+                  This project uses machine learning to predict the presence of
+                  diabetes in an individual/population given easily obtained
+                  personal data.
+                </p>
+
+                <ul class="work__modal-list">
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Sklearn</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Pandas</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Jupyter Notebook</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Plotly Dash</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Heroku</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="work__img__link">
+              <img src="assets/img/work5.jpg" alt="" class="work__img" />
+              <div class="work__link">
+                <div class="work__link-name work__button-details">View Details</div>
+              </div>
+            </div>
+
+            <h3 class="work__title">Find Shortest Path - Package Delivery</h3>
+            <span class="work__subtitle">CLI Application</span>
+            <a href="#" class="work__button">
+              Demo <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+          </div>
+
+
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+
+                <h3 class="work__modal-title">CLI Application</h3>
+                <p class="work__modal-description">
+                  This CLI application finds the shortest path for package
+                  delivery for a fictional delivery company. Restrictions
+                  include number of packages per truck, number of trucks and
+                  number of drivers available, and priority packages.
+                </p>
+
+                <ul class="work__modal-list">
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Python</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Dijkstra's algorithm</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="services__modal-info">Hash Map</p>
+                  </li>
+
+                  <li class="work__modal-item">
+                    <i class="bx bx-check work__modal-icon"></i>
+                    <p class="work__modal-info">Heroku</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">EMAIL</h3>
+              <span class="contact__card-text">jpburke77@gmail.com</span>
+
+              <a
+                href="mailto:jpburke77@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__button"
+              >
+                Email Me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bx-phone contact__card-icon"></i>
+              <h3 class="contact__card-title">PHONE</h3>
+              <span class="contact__card-text">(512) 968-5801</span>
+
+              <a
+                href="tel:1-512-968-5801"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__button"
+              >
+                Call Me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bx-home-alt contact__card-icon"></i>
+              <h3 class="contact__card-title">ADDRESS</h3>
+              <span class="contact__card-text"
+                >203 Longspur Dr. Buda, Texas</span
+              >
+
+              <a
+                href="assets/img/pony-express-poster.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact__button"
+              >
+                Write Me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <form action="" method="get" class="contact__form">
+              <div class="contact__form-div">
+                <label for="fname" class="contact__form-tag">Name</label>
+
+                <input type="text" placeholder="" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="email" class="contact__form-tag">Email</label>
+
+                <input
+                  type="email"
+                  placeholder=""
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="message" class="contact__form-tag">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  placeholder=""
+                  cols="0"
+                  rows="10"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Jason Patrick Burke</h1>
+
+        <ul class="footer__list">
+          <li><a href="#about" class="footer__link">About</a></li>
+          <li><a href="#work" class="footer__link">Projects</a></li>
+          <li><a href="#skills" class="footer__link">Skills</a></li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/jason-p-burke/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a
+            href="https://github.com/JasonPBurke/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <!-- <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a> -->
+        </ul>
+        <span class="footer__copy"> &#169; JasBur. All rights reserved </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
