@@ -657,11 +657,15 @@
           </div>
 
           <div class="contact__content">
-            <form action="" method="get" class="contact__form">
+            <form action="https://formspree.io/f/xpzbrqgr" method="POST" class="contact__form">
               <div class="contact__form-div">
                 <label for="fname" class="contact__form-tag">Name</label>
 
-                <input type="text" placeholder="" class="contact__form-input" />
+                <input 
+                  type="text" 
+                  name="Name" 
+                  placeholder="" 
+                  class="contact__form-input" />
               </div>
 
               <div class="contact__form-div">
@@ -669,6 +673,7 @@
 
                 <input
                   type="email"
+                  name="email"
                   placeholder=""
                   class="contact__form-input"
                 />
@@ -677,7 +682,7 @@
               <div class="contact__form-div contact__form-area">
                 <label for="message" class="contact__form-tag">Message</label>
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   placeholder=""
                   cols="0"
