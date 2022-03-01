@@ -30,6 +30,20 @@ modalClose.forEach((mc) =>{
     })
 })
 
+modalBtns.forEach((mb, i) =>{
+    mb.addEventListener('ontouchstart', () =>{
+        modal(i)
+    })
+})
+
+modalClose.forEach((mc) =>{
+    mc.addEventListener('ontouchstart', () =>{
+        modalViews.forEach((mv) =>{
+            mv.classList.remove('active-modal')
+        })
+    })
+})
+
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
