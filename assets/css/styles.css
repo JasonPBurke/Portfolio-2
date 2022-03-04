@@ -332,7 +332,7 @@ body.light-theme {
 }
 
 .home__img {
-  width: 148px; /* 95px change this for picture size adjustment*/
+  width: 168px; /* 95px change this for picture size adjustment*/
 }
 
 .home__handle {
@@ -982,7 +982,7 @@ body.light-theme {
     height: 400px;
   }
   .home__img {
-    width: 209px; /*129px*/
+    width: 259px; /*129px*/
   }
   .home__social-link {
     padding: 0.4rem;
