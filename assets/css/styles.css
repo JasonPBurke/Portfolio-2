@@ -263,7 +263,7 @@ body.light-theme {
   position: fixed;
   bottom: 1rem;
   background-color: hsl(var(--second-hue), 32%, 16%, 0.8);
-  width: 90%;
+  width: 91%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
@@ -681,7 +681,7 @@ body.light-theme {
 .work__modal-close {
   position: absolute;
   top: 1.5rem;
-  right: 1.5em;
+  right: 0.9em;
   font-size: 1.5rem;
   color: var(--first-color);
   cursor: pointer;
