@@ -332,13 +332,13 @@ body.light-theme {
 }
 
 .home__img {
-  width: 95px; /* change this for picture size adjustment*/
+  width: 148px; /* 95px change this for picture size adjustment*/
 }
 
 .home__handle {
   justify-self: center;
   width: 190px;
-  height: 293px;
+  height: 283px;
   background: linear-gradient(
     180deg,
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
@@ -348,7 +348,7 @@ body.light-theme {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .home__buttons {
@@ -871,7 +871,7 @@ body.light-theme {
     height: 253px;
   }
   .home__img {
-    width: 82px;
+    width: 132px; /*82px*/
   }
 
   .about__info {
@@ -982,7 +982,7 @@ body.light-theme {
     height: 400px;
   }
   .home__img {
-    width: 129px;
+    width: 209px; /*129px*/
   }
   .home__social-link {
     padding: 0.4rem;
