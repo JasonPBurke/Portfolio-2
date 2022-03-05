@@ -195,7 +195,7 @@ body.light-theme {
   background-color: hsl(var(--second-hue), 8%, 44%);
 }
 
-/* =============== SCROLLREVEAL =============== */
+/* =============== SCROLLREVEAL FLICKER FIX =============== */
 html.sr .load-hidden {
   visibility: hidden;
 }
