@@ -24,6 +24,9 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+       <!--=============== SCROLLREVEAL ===============-->
+       <script src="assets/js/scrollreveal.min.js"></script>
+
     <title>Jason Burke - Portfolio</title>
   </head>
   <body>
@@ -76,7 +79,7 @@
       <!--=============== HOME ===============-->
       <section class="home section" id="home">
         <div class="home__container container grid">
-          <div class="home__data">
+          <div class="home__data load-hidden">
             <span class="home__greeting">Hello, I'm</span>
             <h1 class="home__name">Jason Burke</h1>
             <h3 class="home__education">Software Developer</h3>
@@ -92,10 +95,10 @@
             </div>
           </div>
 
-          <div class="home__handle">
+          <div class="home__handle load-hidden">
             <img src="assets/img/orange-capital.png" alt="" class="home__img" />
           </div>
-          <div class="home__social">
+          <div class="home__social load-hidden">
             <a
               href="https://www.linkedin.com/in/jason-p-burke/"
               target="_blank"
@@ -115,7 +118,7 @@
 
           </div>
 
-          <a href="#about" class="home__scroll">
+          <a href="#about" class="home__scroll load-hidden">
             <i class="bx bx-mouse home__scroll-icon"></i>
             <span class="home__scroll-name">Scroll Down</span>
           </a>
@@ -725,9 +728,6 @@
         <span class="footer__copy"> &#169; JasBur. All rights reserved </span>
       </div>
     </footer>
-
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
